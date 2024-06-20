@@ -8,7 +8,6 @@ def draw_plot():
     df['Year']=df['Year'].astype(int)
 
     # Create scatter plot
-    fig,ax = plt.subplots()
     plt.scatter('Year', 'CSIRO Adjusted Sea Level', data=df)
     plt.show()
 
